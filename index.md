@@ -9,6 +9,6 @@
   {{ post.content }}
 </div>
 <span>
-  EOF
+  <a href="{{ '/' | relative_url }}">トップに戻る</a>
 </span>
 {% endfor %}
