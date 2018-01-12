@@ -9,6 +9,6 @@
   {{ post.content }}
 </div>
 <span>
-  <a href="{{ '/' | relative_url }}">先頭に戻る</a>
+  <a href="{{ '/' | relative_url }}">ページ先頭へ戻る</a>
 </span>
 {% endfor %}
