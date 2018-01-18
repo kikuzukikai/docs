@@ -36,9 +36,9 @@
         {% endif %}
         
         <ul>
-          <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">Facebook</a></li>
-          <li><a href="https://twitter.com/{{ site.github.owner_name }}">Twitter</a></li>
-          <li><a href="https://www.instagram.com/{{ site.github.owner_name }}">Instagram</a></li>
+          <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Facebook</strong></a></li>
+          <li><a href="https://twitter.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Twitter</strong></a></li>
+          <li><a href="https://www.instagram.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Instagram</strong></a></li>
         </ul>
         
       </header>
