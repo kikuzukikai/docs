@@ -34,8 +34,6 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
-        <small>Address</small>
-        <p>6-6-8, Takamoridai, Kasugai-shi, Aichi, 487-0032, Japan</p>
         <small>E-mail</small>
         <p>contact@kikuzuki.jp</p>
         <ul>
