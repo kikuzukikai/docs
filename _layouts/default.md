@@ -28,6 +28,14 @@
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
         {% endif %}
 
+        <small>E-mail:</small>
+        <p>contact@kikuzuki.jp</p>
+        <ul>
+          <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Facebook</strong></a></li>
+          <li><a href="https://twitter.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Twitter</strong></a></li>
+          <li><a href="https://www.instagram.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Instagram</strong></a></li>
+        </ul>
+
         {% if site.github.is_user_page %}
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
@@ -38,15 +46,7 @@
             <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
-        {% endif %}
-        <small>E-mail:</small>
-        <p>contact@kikuzuki.jp</p>
-        <ul>
-          <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Facebook</strong></a></li>
-          <li><a href="https://twitter.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Twitter</strong></a></li>
-          <li><a href="https://www.instagram.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Instagram</strong></a></li>
-        </ul>
-        
+        {% endif %}        
       </header>
       <section>
 
