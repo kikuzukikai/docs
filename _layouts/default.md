@@ -39,7 +39,7 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
-        <small>E-mail</small>
+        <small>E-mail:</small>
         <p>contact@kikuzuki.jp</p>
         <ul>
           <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Facebook</strong></a></li>
