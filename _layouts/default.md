@@ -2,13 +2,18 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-{% seo %}
-
+    {% seo %}
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+    
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/pygment_trac.css' | relative_url }}">
-    <meta name="viewport" content="width=device-width">
+    
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
