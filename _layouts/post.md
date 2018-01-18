@@ -7,4 +7,4 @@ layout: default
 
 <div>{{ content }}</div>
 
-<span><a href="{{ '/' | relative_url }}">ページ先頭へ戻る</a></span>
+<span><a href="{{ '/' | relative_url }}">サイト先頭へ戻る</a></span>
