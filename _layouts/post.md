@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<span>{{ post.date | date_to_string }}</span>
+<span>{{ post.date | date: "%-d %B %Y" }}</span>
 <h2>{{ post.title }}</h2>
 
 <div>{{ post.content }}</div>
