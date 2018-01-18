@@ -1,15 +1,14 @@
 body {
-  background-color: #eee;
-  background-image: 
-  radial-gradient(circle at 100% 150%, #eee 24%, #fff 25%, #fff 28%, #eee 29%, #eee 36%, #fff 36%, #fff 40%, transparent 40%, transparent),
-  radial-gradient(circle at 0    150%, #eee 24%, #fff 25%, #fff 28%, #eee 29%, #eee 36%, #fff 36%, #fff 40%, transparent 40%, transparent),
-  radial-gradient(circle at 50%  100%, #fff 10%, #eee 11%, #eee 23%, #fff 24%, #fff 30%, #eee 31%, #eee 43%, #fff 44%, #fff 50%, #eee 51%, #eee 63%, #fff 64%, #fff 71%, transparent 71%, transparent),
-  radial-gradient(circle at 100% 50%, #fff 5%, #eee 6%, #eee 15%, #fff 16%, #fff 20%, #eee 21%, #eee 30%, #fff 31%, #fff 35%, #eee 36%, #eee 45%, #fff 46%, #fff 49%, transparent 50%, transparent),
-  radial-gradient(circle at 0    50%, #fff 5%, #eee 6%, #eee 15%, #fff 16%, #fff 20%, #eee 21%, #eee 30%, #fff 31%, #fff 35%, #eee 36%, #eee 45%, #fff 46%, #fff 49%, transparent 50%, transparent);
-  background-size:100px 50px;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+  background-attachment: fixed;
   padding:50px;
   font: 14px/1.5 Ubuntu, "Noto Sans Japanese", sans-serif;
-  color:#595959;
   font-weight:400;
 }
 
