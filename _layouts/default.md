@@ -34,6 +34,13 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
+        
+        <ul>
+          <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">Facebook</a></li>
+          <li><a href="https://twitter.com/{{ site.github.owner_name }}">Twitter</a></li>
+          <li><a href="https://www.instagram.com/{{ site.github.owner_name }}">Instagram</a></li>
+        </ul>
+        
       </header>
       <section>
 
