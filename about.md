@@ -1,5 +1,5 @@
 ---
-title: 運営規約
+title: 私達について
 ---
 
 <h2>{{ page.title }}</h2>
