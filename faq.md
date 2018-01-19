@@ -1,5 +1,5 @@
 ---
-title: よくあるご質問
+title: よくある質問
 ---
 
 <h2>{{ page.title }}</h2>
