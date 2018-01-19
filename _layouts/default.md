@@ -24,7 +24,7 @@
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <p class="view"><i class="fa fa-github"></i> - <a href="{{ site.github.repository_url }}">View the Project on GitHub</a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View the Project on GitHub</a></p>
         
         {% if site.show_downloads %}
           <ul>
@@ -36,9 +36,9 @@
         
         <small>E-mail:</small>
         <p>contact@kikuzuki.jp</p>
-        <p class="view"><i class="fa fa-facebook"></i> - <a href="https://www.facebook.com/{{ site.github.owner_name }}">@{{ site.github.owner_name }}</a>
-        <p class="view"><i class="fa fa-twitter"></i> - <a href="https://twitter.com/{{ site.github.owner_name }}">@{{ site.github.owner_name }}</a>
-        <p class="view"><i class="fa fa-instagram"></i> - <a href="https://www.instagram.com/{{ site.github.owner_name }}">@{{ site.github.owner_name }}</a>
+        <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a>
+        <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a>
+        <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a>
       </header>
       <section>
 
