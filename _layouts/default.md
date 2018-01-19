@@ -7,7 +7,7 @@
 
     {% seo %}
     
-    <!-- Google Fonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu">
     <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
     
@@ -23,30 +23,22 @@
       <header>
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
-        <small>E-mail:</small>
-        <p>contact@kikuzuki.jp</p>
-        <ul>
-          <li><a href="https://www.facebook.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Facebook</strong></a></li>
-          <li><a href="https://twitter.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Twitter</strong></a></li>
-          <li><a href="https://www.instagram.com/{{ site.github.owner_name }}">{{ site.github.owner_name }} <strong>Instagram</strong></a></li>
-        </ul>
-
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
+        
+        <p class="view"><i class="fa fa-github"></i> - <a href="{{ site.github.repository_url }}">View the Project on GitHub</a></p>
+        
         {% if site.show_downloads %}
           <ul>
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
             <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
-        {% endif %}        
+        {% endif %}
+        
+        <small>E-mail:</small>
+        <p>contact@kikuzuki.jp</p>
+        <p class="view"><i class="fa fa-facebook"></i> - <a href="https://www.facebook.com/{{ site.github.owner_name }}">@{{ site.github.owner_name }}</a>
+        <p class="view"><i class="fa fa-twitter"></i> - <a href="https://twitter.com/{{ site.github.owner_name }}">@{{ site.github.owner_name }}</a>
+        <p class="view"><i class="fa fa-instagram"></i> - <a href="https://www.instagram.com/{{ site.github.owner_name }}">@{{ site.github.owner_name }}</a>
       </header>
       <section>
 
