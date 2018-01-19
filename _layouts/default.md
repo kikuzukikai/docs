@@ -23,7 +23,7 @@
       <header>
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View the Project on GitHub</a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
         <ul>
 <li><a href="{{ '/about' | relative_url }}">About us <strong>私達について</strong></a></li>
 <li><a href="{{ '/rule' | relative_url }}">Rule <strong>運営規約</strong></a></li>
