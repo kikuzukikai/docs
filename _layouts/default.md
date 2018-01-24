@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu">
     <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
     
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/pygment_trac.css' | relative_url }}">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
