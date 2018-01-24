@@ -39,7 +39,7 @@
       <footer>
         <small>E-mail:</small>
         <p class="view">contact@kikuzuki.jp
-        <span title="Valid Address" style="font-size:0.1em" class="fa-stack">
+        <span title="Valid Address" style="font-size:0.5em" class="fa-stack">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-check fa-stack-1x fa-inverse"></i>
         </span></p>
