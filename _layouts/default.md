@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    {% seo %}
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name | default: site.github.repository_name }}{% if page.title %}{% else %} | {{ site.github.project_tagline | default: site.description }}{% endif %}</title>
+  
+    {% seo title=false %}
     
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu">
@@ -21,7 +22,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1><i class="fa fa-link fa-fw"></i></a>
+        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}<i class="fa fa-link fa-fw"></i></h1></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
         <ul>
