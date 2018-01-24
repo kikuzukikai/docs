@@ -39,10 +39,11 @@
       </section>
       <footer>
         <small>E-mail:</small>
-        <p class="view">contact@kikuzuki.jp<span data-toggle="tooltip" data-placement="top" title="Valid Address as of {{ site.time | date_to_string }}" style="font-size:0.5em; color:" class="fa-stack">
-          <i class="fa fa-circle fa-stack-2x text-success"></i>
-          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
-        </span></p>
+        <p class="view">contact@kikuzuki.jp
+<span data-toggle="tooltip" data-placement="top" title="Valid Address as of {{ site.time | date_to_string }}" style="font-size:0.5em; color:" class="fa-stack">
+<i class="fa fa-circle fa-stack-2x text-success"></i>
+<i class="fa fa-check fa-stack-1x fa-inverse"></i>
+</span></p>
         <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a></p>
