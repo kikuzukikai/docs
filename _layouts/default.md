@@ -22,7 +22,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}<i class="fa fa-link fa-fw"></i></h1></a>
+        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}<i class="fa fa-circle-o-notch fa-spin fa-fw"></i></h1></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
         <ul>
