@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name | default: site.github.repository_name }}{% if page.title %}{% else %} | {{ site.github.project_tagline | default: site.description }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }}{% if page.title %}{% else %} | {{ site.github.project_tagline | default: site.description }}{% endif %}</title>
   
     {% seo title=false %}
     
