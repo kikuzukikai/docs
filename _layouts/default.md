@@ -23,10 +23,6 @@
     <div class="wrapper">
       <header>
         <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
-        <a href="{{ '/faq' | relative_url }}"><span class="fa-stack">
-          <i class="fa fa-certificate fa-stack-2x"></i>
-          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
-        </span></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
         <ul>
@@ -42,10 +38,14 @@
       </section>
       <footer>
         <small>E-mail:</small>
-        <p>contact@kikuzuki.jp</p>
-        <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a>
-        <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a>
-        <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a>
+        <p class="view">contact@kikuzuki.jp
+        <a href="{{ '/faq' | relative_url }}"><span class="fa-stack">
+          <i class="fa fa-certificate fa-stack-2x"></i>
+          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+        </span></a></p>
+        <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
+        <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
+        <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">@{{ site.github.owner_name }}</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">@orderedlist</a></small></p>
       </footer>
