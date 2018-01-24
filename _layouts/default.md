@@ -38,11 +38,11 @@
       </section>
       <footer>
         <small>E-mail:</small>
-        <p class="view">contact@kikuzuki.jp</p>
-        <span title="Valid Address" class="fa-stack">
+        <p class="view">contact@kikuzuki.jp
+        <span title="Valid Address" class="fa-stack text-success">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-check fa-stack-1x fa-inverse"></i>
-        </span>
+        </span></p>
         <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a></p>
