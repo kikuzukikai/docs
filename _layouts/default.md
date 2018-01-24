@@ -22,7 +22,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}<i class="fa fa-circle-o-notch fa-spin fa-fw"></i></h1></a>
+        <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-certificate fa-stack-2x"></i>
+          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+        </span>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
         <ul>
