@@ -4,7 +4,6 @@ body {
   padding:50px;
   font: 14px/1.5 Ubuntu, "Noto Sans Japanese", sans-serif;
   font-weight:400;
-  text-decoration:none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-size:14px;
+  font-size:20px;
   color:#393939;
   font-weight: 500;
 }
@@ -43,6 +42,7 @@ a {
 
 a:hover {
   color:#069;
+  text-decoration:none;
 }
 
 a small {
@@ -50,10 +50,12 @@ a small {
   color:#777;
   margin-top:-0.3em;
   display:block;
+  text-decoration:none;
 }
 
 a:hover small {
   color:#777;
+  text-decoration:none;
 }
 
 .wrapper {
