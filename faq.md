@@ -9,13 +9,13 @@ title: よくある質問
 
 ウェブサイトやプレスリリースだけでなく、以下に掲げるサービスも活用しています。
 
-* Twitter
+* [Twitter](https://twitter.com/{{ site.github.owner_name }})
 
     私達は、フォローは互いの緩やかな繋がりを示すTwitter特有の慣習と考え、フォローして頂いた方に対して積極的にフォローを返しています。そのため、当会のアカウントが当会関係者以外のアカウントをフォローし、またはツイートに対し何らかのアクションをとることは、特段の断りがない限り、そのアカウントやツイートへの支持および賛同を示すものではありません。
 
-* Facebook
+* [Facebook](https://www.facebook.com/{{ site.github.owner_name }})
 
-* Instagram
+* [Instagram](https://www.instagram.com/{{ site.github.owner_name }})
 
 ## 寄付金について
 当面、受付の予定はありません。
