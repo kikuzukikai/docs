@@ -14,6 +14,7 @@
     
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/pygment_trac.css' | relative_url }}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,8 +40,8 @@
       <footer>
         <small>E-mail:</small>
         <p class="view">contact@kikuzuki.jp
-        <span title="Valid Address" style="font-size:0.5em" class="fa-stack">
-          <i class="fa fa-circle fa-stack-2x"></i>
+        <span data-toggle="tooltip" data-placement="top" title="Valid Address" style="font-size:0.8em; color:" class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x text-success"></i>
           <i class="fa fa-check fa-stack-1x fa-inverse"></i>
         </span></p>
         <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
@@ -51,7 +52,9 @@
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
+    <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
   {% if site.google_analytics %}
     <script>
