@@ -1,25 +1,23 @@
 ---
-title: Markdown記法
+title: Markdown Syntax Cheat Sheet
 ---
 
-I have some text.
+This is Regular text.
 
-I want some _italics_.
+This is **bold** text.
 
-I want some **bold**.
+This is _italics_ text.
 
-# this is heading 1
+# This is Headline
 
-## this is heading 2
+## This is Medium headline
 
-### this is heading 3
+### This is Subheading
 
-you want a list?
 * first
 * second
 * third
 
-you want an ordered list?
 1. whatever
 1. whatever
 1. whatever
