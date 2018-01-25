@@ -27,7 +27,6 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
         <ul>
-<li><a href="{{ '/about' | relative_url }}">About us <strong>私達について</strong></a></li>
 <li><a href="{{ '/rule' | relative_url }}">Rule <strong>運営規約</strong></a></li>
 <li><a href="{{ '/faq' | relative_url }}">FAQ <strong>よくある質問</strong></a></li>
         </ul>
