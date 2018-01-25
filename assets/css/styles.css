@@ -59,8 +59,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  width:95%;
+  margin:auto;
 }
 
 blockquote {
@@ -108,7 +108,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:30%;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -174,7 +174,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:60%;
   float:right;
   padding-bottom:50px;
 }
@@ -191,7 +191,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:30%;
   float:left;
   position:fixed;
   bottom:50px;
