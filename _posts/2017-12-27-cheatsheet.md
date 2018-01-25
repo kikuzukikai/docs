@@ -1,4 +1,5 @@
 ---
+layout: math
 title: Markdown Syntax Cheat Sheet
 ---
 
