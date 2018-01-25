@@ -31,10 +31,3 @@ This is _italics_ text.
 | be         | be          | be           |
 | left       | right       | center       |
 | aligned    | aligned     | aligned      |
-
-$$
-\begin{align*}
-\frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
-\left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
-\end{align*}
-$$
