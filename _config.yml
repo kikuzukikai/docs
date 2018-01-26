@@ -10,5 +10,6 @@ description: > # ignore newlines
   「菊月」の軌跡や資料を後世に伝えることを目的としています。
 permalink: /:title
 google_site_verification: p8zEhEVzQxtHFKy0QJlzy3Li0t5Ptxar3bp6Y18bTmY
+google_analytics: UA-71602879-1
 plugins:
   - jekyll-sitemap
