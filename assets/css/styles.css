@@ -215,7 +215,7 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
-  padding:1%;
+  padding:10px;
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
