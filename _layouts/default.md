@@ -44,7 +44,7 @@
         <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
         <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a></p>
-        <p><small>Theme by <a href="https://github.com/orderedlist">@orderedlist</a></small></p>
+        <p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
