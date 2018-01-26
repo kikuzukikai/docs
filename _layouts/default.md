@@ -37,14 +37,13 @@
 
       </section>
       <footer>
-        <small>E-mail:</small>
-        <p class="view">contact@kikuzuki.jp
-<i data-toggle="tooltip" data-placement="top" title="Valid Address as of {{ site.time | date_to_string }}" class="fa fa-check-circle fa-fw text-success"></i>
-        </p>
-        <p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
-        <p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
-        <p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a></p>
-        <p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+<small>E-mail:</small>
+<p class="view">contact@kikuzuki.jp
+<i data-toggle="tooltip" data-placement="top" title="Valid Address as of {{ site.time | date_to_string }}" class="fa fa-check-circle fa-fw text-success"></i></p>
+<p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
+<p class="view"><a href="https://www.facebook.com/{{ site.github.owner_name }}"><i class="fa fa-facebook fa-fw"></i> @{{ site.github.owner_name }}</a></p>
+<p class="view"><a href="https://www.instagram.com/{{ site.github.owner_name }}"><i class="fa fa-instagram fa-fw"></i> @{{ site.github.owner_name }}</a></p>
+<p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
