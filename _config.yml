@@ -9,5 +9,6 @@ description: > # ignore newlines
   会員の親睦や情報共有を行い、
   「菊月」の軌跡や資料を後世に伝えることを目的としています。
 permalink: /:title
+google_site_verification: p8zEhEVzQxtHFKy0QJlzy3Li0t5Ptxar3bp6Y18bTmY
 plugins:
   - jekyll-sitemap
