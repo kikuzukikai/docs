@@ -7,7 +7,7 @@ description: > # ignore newlines
   二次創作を通してクリエイターが刺激し合い、
   作品全体の質を高めていくことができるプラットフォームを提供します。
 permalink: /:title
-google_site_verification: p8zEhEVzQxtHFKy0QJlzy3Li0t5Ptxar3bp6Y18bTmY
-google_analytics: UA-71602879-1
+google_site_verification: 
+google_analytics: 
 plugins:
   - jekyll-sitemap
