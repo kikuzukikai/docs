@@ -1,13 +1,11 @@
 timezone: Asia/Tokyo
 lang: ja_JP
-title: 駆逐艦菊月会
+title: 株式会社 Nizitsuku
 description: > # ignore newlines
-  駆逐艦「菊月」の元乗員およびその遺族、
-  関係者で構成される戦友会です。
-  一切の政治的思想に与せず、
-  戦没または物故した「菊月」元乗員の慰霊、
-  会員の親睦や情報共有を行い、
-  「菊月」の軌跡や資料を後世に伝えることを目的としています。
+  二次創作がより多くなされることは、
+  その作品をより豊かにするという理念のもと、
+  二次創作を通してクリエイターが刺激し合い、
+  作品全体の質を高めていくことができるプラットフォームを提供します。
 permalink: /:title
 google_site_verification: p8zEhEVzQxtHFKy0QJlzy3Li0t5Ptxar3bp6Y18bTmY
 google_analytics: UA-71602879-1
