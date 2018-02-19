@@ -26,10 +26,6 @@
         <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
-        <ul>
-<li><a href="{{ '/rule' | relative_url }}">Rule <strong>運営規約</strong></a></li>
-<li><a href="{{ '/faq' | relative_url }}">FAQ <strong>よくある質問</strong></a></li>
-        </ul>
       </header>
       <section>
 
@@ -37,7 +33,6 @@
 
       </section>
       <footer>
-<p class="view"><a href="https://twitter.com/{{ site.github.owner_name }}"><i class="fa fa-twitter fa-fw"></i> @{{ site.github.owner_name }}</a></p>
 <p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
       </footer>
     </div>
