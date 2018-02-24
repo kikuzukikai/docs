@@ -26,6 +26,10 @@
         <a href="{{ site.github.url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github fa-fw"></i> View this project on GitHub</a></p>
+        <ul>
+<li><a href="{{ '/about' | relative_url }}">About Us <strong>会社情報</strong></a></li>
+<li><a href="{{ '/recruit' | relative_url }}">Recruit <strong>採用情報</strong></a></li>
+        </ul>
       </header>
       <section>
 
